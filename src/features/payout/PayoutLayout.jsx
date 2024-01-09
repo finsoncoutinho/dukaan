@@ -2,7 +2,7 @@
 import { Stack, Typography } from '@mui/material'
 import { useState } from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
-import Table from './table'
+import Table from './Table.jsx'
 const PayoutLayout = () => {
   const [selectedOption, setSelectedOption] = useState('option1')
   return (
