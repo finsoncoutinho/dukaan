@@ -35,7 +35,7 @@ const PayoutLayout = () => {
           <option value='option3'>Last 6 Months</option>
         </select>
       </Stack>
-      <Stack direction='row' spacing={2}>
+      <Stack direction='row' spacing={2} marginTop={3}>
         <Stack
           spacing={2}
           sx={{
