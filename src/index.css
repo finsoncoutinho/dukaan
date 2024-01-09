@@ -1,0 +1,6 @@
+/* Reset all margins, paddings, and borders */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
