@@ -113,6 +113,7 @@ const Table = () => {
                 border: '1px solid #ccc',
                 height: '40px',
                 paddingX: 1,
+                borderRadius: 1,
               }}
             >
               <Typography>Sort</Typography>
@@ -127,6 +128,7 @@ const Table = () => {
                 color: '#616161',
                 border: '1px solid #ccc',
                 height: '40px',
+                borderRadius: 1,
 
                 paddingX: 1,
               }}

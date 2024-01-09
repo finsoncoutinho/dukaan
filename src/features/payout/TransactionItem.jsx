@@ -11,6 +11,7 @@ const TransactionItem = ({ item }) => {
         paddingY: 2,
         paddingX: 1,
         borderBottom: '2px solid #eee',
+        color: '#7d7c7b',
       }}
     >
       <Typography variant='body2' sx={{ color: '#146eb4' }}>
@@ -24,7 +25,9 @@ const TransactionItem = ({ item }) => {
       </Stack>
       <Typography variant='body2'>{item.transactionID}</Typography>
       <Typography variant='body2'>{item.refundDate}</Typography>
-      <Typography variant='body2'>{item.orderAmount}</Typography>
+      <Typography variant='body2' color='#222027'>
+        {item.orderAmount}
+      </Typography>
     </Stack>
   )
 }
